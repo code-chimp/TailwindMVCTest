@@ -1,0 +1,23 @@
+{
+  "name": "tailwindmvctest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss Design/tailwind.css -o wwwroot/css/custom.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.1.0",
+    "postcss-nested": "^5.0.6",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.0.23"
+  }
+}

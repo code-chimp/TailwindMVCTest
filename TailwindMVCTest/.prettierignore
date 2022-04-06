@@ -1,0 +1,12 @@
+/node_modules
+/.cache
+/.git
+/.idea
+/.fscode
+*.txt
+*.back
+LICENSE
+.gitignore
+.prettierignore
+package-lock.json
+yarn.lock

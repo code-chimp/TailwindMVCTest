@@ -1,0 +1,13 @@
+@layer components {
+  .btn {
+    @apply my-4 px-4 border-2 rounded-lg;
+
+    &-blue {
+      @apply border-blue-900 text-white bg-blue-700 hover:bg-blue-300 hover:text-black;
+    }
+
+    &-gray {
+      @apply border-black text-white bg-gray-500 hover:bg-amber-200 hover:text-black;
+    }
+  }
+}
