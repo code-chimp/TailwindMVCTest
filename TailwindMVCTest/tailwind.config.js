@@ -1,7 +1,9 @@
 module.exports = {
   content: ['./Views/**/*.cshtml'],
   theme: {
-    extend: {},
+    extend: {
+      debugScreens: { position: ['top', 'left'] }
+    },
   },
-  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
+  plugins: [require('tailwindcss-debug-screens'), require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 };

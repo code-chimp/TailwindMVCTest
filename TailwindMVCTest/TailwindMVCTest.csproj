@@ -10,4 +10,8 @@
     <Content Remove="wwwroot\css\custom.css" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Westwind.AspNetCore.LiveReload" Version="0.3.6" />
+  </ItemGroup>
+
 </Project>
